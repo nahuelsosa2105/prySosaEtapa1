@@ -83,6 +83,7 @@
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.pctFirma);
             this.Name = "frmMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Firma";
             ((System.ComponentModel.ISupportInitialize)(this.pctFirma)).EndInit();
             this.ResumeLayout(false);
